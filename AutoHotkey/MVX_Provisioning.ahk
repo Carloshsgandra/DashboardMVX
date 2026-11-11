@@ -1,7 +1,7 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-DashboardURL := "https://provisioning-pendencias-mvx.carloshsgandracode.chatgpt.site/"
+DashboardURL := "https://carloshsgandra.github.io/DashboardMVX/"
 SupersetURL := "https://dashboard.mundivox.com/superset/dashboard/195/"
 ERPURL := "https://erp.mundivox.com/"
 

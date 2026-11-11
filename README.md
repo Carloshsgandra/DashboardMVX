@@ -1,6 +1,8 @@
 # Dashboard MVX — Provisioning
 
-Dashboard colaborativo que cruza as pendências do **Relatório Diário (Superset)** com a atividade **CONFIGURAÇÃO DE EQUIPAMENTO** no ERP.
+Dashboard público no GitHub Pages que cruza as pendências do **Relatório Diário (Superset)** com a atividade **CONFIGURAÇÃO DE EQUIPAMENTO** no ERP.
+
+**Acesso:** https://carloshsgandra.github.io/DashboardMVX/
 
 ## Regras implementadas
 
@@ -11,8 +13,8 @@ Dashboard colaborativo que cruza as pendências do **Relatório Diário (Superse
 
 ## Componentes
 
-- `worker/index.js`: dashboard e API online.
-- `migrations/`: banco D1 para colaboração, anotações, abatimentos e auditoria.
+- `docs/`: dashboard do GitHub Pages e banco colaborativo `data.json`.
+- `.github/workflows/pages.yml`: publicação automática.
 - `extension/`: extensão Brave/Chrome Manifest V3.
 - `AutoHotkey/MVX_Provisioning.ahk`: atalhos para abrir e conferir os sistemas.
 
@@ -31,4 +33,4 @@ Dashboard colaborativo que cruza as pendências do **Relatório Diário (Superse
 - `Ctrl+Shift+E`: ERP.
 - `Ctrl+Shift+V`: verifica no ERP o código numérico selecionado.
 
-> O repositório guarda somente código. Dados de clientes e anotações ficam no banco privado do dashboard, não no GitHub público.
+> O repositório é público. Ao sincronizar, os registros presentes em `docs/data.json` também se tornam públicos. Para editar, cada usuário configura no painel um token Fine-grained limitado ao repositório, com `Contents: Read and write`; o token permanece somente no navegador desse usuário.

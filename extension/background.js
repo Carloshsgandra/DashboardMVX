@@ -1,4 +1,4 @@
-const SITE = "https://provisioning-pendencias-mvx.carloshsgandracode.chatgpt.site/";
+const SITE = "https://carloshsgandra.github.io/DashboardMVX/";
 
 chrome.action.onClicked.addListener(() => chrome.tabs.create({ url: SITE }));
 

@@ -101,7 +101,7 @@
       return true;
     });
   }
-  if (host === "provisioning-pendencias-mvx.carloshsgandracode.chatgpt.site") {
+  if (host === "carloshsgandra.github.io" && location.pathname.startsWith("/DashboardMVX")) {
     window.addEventListener("message", e => {
       if (e.source === window && e.origin === location.origin && e.data?.source === "px-dashboard") chrome.runtime.sendMessage({ type: "PX_DASH_REQUEST", payload: e.data });
     });

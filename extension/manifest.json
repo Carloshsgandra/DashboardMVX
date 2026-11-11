@@ -7,7 +7,7 @@
   "host_permissions": [
     "https://dashboard.mundivox.com/*",
     "https://erp.mundivox.com/*",
-    "https://provisioning-pendencias-mvx.carloshsgandracode.chatgpt.site/*"
+    "https://carloshsgandra.github.io/DashboardMVX/*"
   ],
   "background": {"service_worker": "background.js"},
   "options_page": "options.html",
@@ -16,7 +16,7 @@
     "matches": [
       "https://dashboard.mundivox.com/*",
       "https://erp.mundivox.com/*",
-      "https://provisioning-pendencias-mvx.carloshsgandracode.chatgpt.site/*"
+      "https://carloshsgandra.github.io/DashboardMVX/*"
     ],
     "js": ["content.js"],
     "run_at": "document_idle",
